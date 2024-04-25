@@ -15,3 +15,7 @@ PyRun_SimpleString("sys.path.append('/Users/kevinyu/Desktop/BXC_CppCallPython/Ca
 
 ## Notes for CMakeLists.txt
 
+The "find_package" instruction in CMakeLists prints out your python install path on your system.  
+
+You should change "include_directories" and "target_link_libraries" to your own system path. 
+
