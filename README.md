@@ -1,4 +1,4 @@
-# Cpp调用python & 书写CMakeLists学习笔记
+# Cpp-Call-Python-Demo
 
 `CallFunc/`: Includes main cpp script, CMakeList and python function. 
 
