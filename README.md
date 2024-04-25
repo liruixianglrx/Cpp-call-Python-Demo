@@ -19,3 +19,6 @@ The "find_package" instruction in CMakeLists prints out your python install path
 
 You should change "include_directories" and "target_link_libraries" to your own system path. 
 
+## For Chinese Readers
+
+Get more at https://blog.csdn.net/kkkevin_off/article/details/138195175?spm=1001.2014.3001.5502
