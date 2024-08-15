@@ -8,7 +8,7 @@ set(CMAKE_BUILD_TYPE "Debug")
 #生成可执行文件
 add_executable(myCpp main.cpp )
 
-find_package(Python3 3.10 COMPONENTS Interpreter Development REQUIRED)
+find_package(Python3 3.12.4 COMPONENTS Interpreter Development REQUIRED)
 if (Python3_FOUND)
     message("Python include directory: " ${Python3_INCLUDE_DIRS})
     message("Python version is: " ${Python3_VERSION})
@@ -16,4 +16,4 @@ if (Python3_FOUND)
 endif (Python3_FOUND)
 
 include_directories(../pythonLib/include/python3.12)
-target_link_libraries(myCpp /Users/kevinyu/Desktop/BXC_CppCallPython/pythonLib/lib/libpython3.12.dylib)
+target_link_libraries(myCpp /home/lrx/codes/Cpp-call-Python-Demo/pythonLib/lib/libpython3.12.so.1.0)

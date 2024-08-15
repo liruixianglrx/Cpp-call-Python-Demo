@@ -7,7 +7,7 @@ void test()
 {   
     Py_Initialize();
     PyRun_SimpleString("import sys");
-    PyRun_SimpleString("sys.path.append('/Users/kevinyu/Desktop/BXC_CppCallPython/CallFunc')");
+    PyRun_SimpleString("sys.path.append('/home/lrx/codes/Cpp-call-Python-Demo/CallFunc')");
 
     PyObject* pModule = NULL;
     PyObject* pFunc = NULL;
